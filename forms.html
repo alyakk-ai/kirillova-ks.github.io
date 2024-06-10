@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/form.js" defer></script>
+		<title>Формы</title>
+	</head>
+	<body class="wrapper">
+       <div class="form-container">
+            <div class="form_block">
+                <section class="block_form-item">
+                    <h3 class="block_form-item-title">Хотите оставить отзыв?</h3>
+                    <button class="signin-button">
+                        Отправить
+                    </button>
+                </section>
+                <section class="block_form-item">
+                    <h3 class="block_form-item-title">Хотите оценить антивирусные программы?</h3>
+                    <button class="signup-button">
+                        Оценить
+                    </button>
+                </section>
+            </div>
+            <div class="forms">
+            <form class="form signin-button">
+                <div class="form-feedback">
+                    <h3 class="block_form-item-title">Оставить отзыв</h3>
+                    <label> 
+                        E-mail 
+                    </label> 
+                    <input class="email" type="email"> 
+                    <label> 
+                        Отзыв 
+                    </label> 
+                    <textarea placeholder="Введите текст:" name="comment" rows="5"></textarea> 
+                    <button class="signin-button">
+                        Отправить
+                    </button>
+                </div>
+            </form>
+            <form class="form signup-button">
+                <div class="form-feedback">
+                    <h3 class="block_form-item-title">Оценить</h3>
+                    <label> 
+                        Kaspersky Anti-Virus 
+                    </label> 
+                    <p>
+                        1<input class="slider" type="range" step="1" min="0" max="5" value="1" name="slider">5 
+                    </p>
+                    <label> 
+                        Dr. Web 
+                    </label> 
+                    <p>
+                        1<input class="slider" type="range" step="1" min="0" max="5" value="1" name="slider">5 
+                    </p>
+                    <label> 
+                        Norton 
+                    </label> 
+                    <p>
+                        1<input class="slider" type="range" step="1" min="0" max="5" value="1" name="slider">5 
+                    </p>
+                    <label> 
+                        Avast Antivirus 
+                    </label> 
+                    <p>
+                        1<input class="slider" type="range" step="1" min="0" max="5" value="1" name="slider">5
+                    </p>
+                    <button class="signup-button">
+                        Оценить
+                    </button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </body>
+</html>

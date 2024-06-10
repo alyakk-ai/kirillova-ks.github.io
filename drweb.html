@@ -1,0 +1,118 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https: //fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dr.Web</title> 
+</head> 
+<body>
+    <header id="header"></header>
+        <script src="js/header.js"></script> 
+    <div class="main">
+    <main>
+        <img src = "img/шапка.png" class="img-head">
+        <hr class="line">
+        <h2 class="title">Dr.Web</h2>
+        <p class="definition">Dr.Web – это ведущий российский разработчик антивирусных 
+            <br>решений, предлагающий полный спектр продуктов для защиты 
+            <br>устройств от вредоносного программного обеспечения.
+        </p>
+        <img src="img/dr_web.png" class="img_antivirus">
+        <h2 class="title-content">Содержание</h2>
+        <div class="navigation">
+        <ol class="navigation-text">
+            <li>Обзор антивируса
+                <ul type="disc">
+                    <li><a href="#li1" class="navigation-link">Установка антивирусной программы</a></li>
+                    <li><a href="#li2" class="navigation-link">Настройки программы</a></li>
+                    <li><a href="#li3" class="navigation-link">Сканирование</a></li>
+                    <li><a href="#li4" class="navigation-link">Библиотека вирусов</a></li>
+                </ul>
+            </li>
+            <li><a href="#li5" class="navigation-link">Написать отзыв</a></li>
+        </ol>
+        </div>
+        <div class="dr_web">
+            <h2 class="title">Как же пользоваться антивирусной программой?</h2>
+            <p id="li1" class="dr_web-text">Рассмотрим данный вопрос на примере бесплатной утилиты Dr.Web CureIt!
+            <br>Переходим на официальный сайт Dr.Web и нажимаем кнопку скачать, появляется следующее окно, которое необходимо заполнить.
+            </p>
+            <img src="img/dr_web_1.png" class="img_dr_web">
+
+            <p class="dr_web-text">После заполнения формы, на почту нам приходит письмо с ссылкой на скачивание. Обычно у Cureit буквенно-цифровое название с расширением .exe, у вас будет другое название.
+            </p>
+            <img src="img/dr_web_2.png" class="img_dr_web">
+
+            <p class="dr_web-text">При открытии программы перед нами появляется следующее окно:</p>
+            <img src="img/dr_web_3.png" class="img_dr_web">
+
+            <p id="li2" class="dr_web-text">В настройках программы можно поставить три быстрых галочки:
+            </p>
+            <ol class="dr_web-text">
+                <li>Автоматически применять действие к угрозам;</li>
+                <li>Выключать компьютер после завершением проверки. Например, если вы включили сканирование вечером и видите, что завершится оно еще не скоро, то данная функция вам поможет. Эта панель настроек будет доступна во время сканирования вы сможете открыть её, пометить этот пункт и сканер выключит компьютер после завершения сканирования;</li>
+                <li>Для любителей звуковых уведомлений есть настройка «Звуковое сопровождение событий». Если антивирусный сканер найдет вирусы, он подаст звуковой сигнал.</li>
+            </ol>
+            <img src="img/dr_web_4.png" class="img_dr_web">
+
+            <p class="dr_web-text">Следующий пункт «Настройки» здесь есть несколько вкладок. На вкладке «Основные» дублируются настройки, о которых описано выше.
+            </p>
+            <p class="dr_web-text">Также есть настройка для ноутбуков «Прервать проверку при переходе на питание от аккумулятора». При полной проверке всех объектов процессор будет загружен довольно сильно, поэтому если вы вынужденно отключили адаптер питания от  
+            ноутбука, то батарея может сильно сесть, а эта галочка поможет сохранить заряд.
+            </p>
+            <p class="dr_web-text">«Запрещать приложениям низкоуровневую запись на жесткий диск» рекомендуется поставить, так как некоторые вирусы способны изменять главную загрузочную запись, а эта настройка поможет избежать этого.
+            </p>
+            <img src="img/dr_web_5.png" class="img_dr_web">
+
+            <p class="dr_web-text">На вкладке «Действия» лучше оставить настройки по умолчанию. Перемещение в карантин наиболее безопасное и обратимое действие, но вы всегда можете выбрать другие действия: <span class="underline">«лечить»</span>, <span class="underline">«игнорировать»</span>, <span class="underline">«удалять»</span>. Внизу оставляем «Предлагать перезагрузку».
+            </p>
+            <img src="img/dr_web_6.png" class="img_dr_web">
+
+            <p class="dr_web-text">На вкладке «Добавление в исключения» можно указать папку которую мы не хотим проверять совсем по какой-либо причине. Например, указываем папку «Документы» и нажимаем на кнопку «Добавить».
+            </p>
+            <p class="dr_web-text">Путь к папке переместился в этот список. Если хотите удалить файл или папку из исключений, то достаточно просто нажать на кнопку «Удалить».
+                Также можно проверять содержимое следующих файлов: архивов, инсталляционные пакеты. 
+            </p>
+            <img src="img/dr_web_7.png" class="img_dr_web">
+
+            <p class="dr_web-text">Во вкладке «Отчет» можно выбрать уровень детализации отчета: стандартный и отладочный (не рекомендуется). Настройки детализации отчета оставляем по умолчанию. 
+            </p>
+            <img src="img/dr_web_8.png" class="img_dr_web">
+
+            <p id="li3" class="dr_web-text">Если у вас есть какие-то подозрения на вирусы замедление работы, какие-то сбои или глюки, то лучше проверить все файлы для этого нажимаем «Выбрать объекты для проверки».
+            </p>
+            <img src="img/dr_web_9.png" class="img_dr_web">
+
+            <p class="dr_web-text">Также можно запустить быструю проверку, нажав на кнопку «Начать проверку»
+            </p>
+            <img src="img/dr_web_10.png" class="img_dr_web">
+
+            <p class="dr_web-text">Если угроз не обнаружено, то вы увидите следующее окно:
+            </p>
+            <img src="img/dr_web_11.png" class="img_dr_web">
+
+            <p class="dr_web-text">Если всё же угрозы будут обнаружены, то Dr.Web предложит вылечить данные файлы или поместить их в карантин. Как обезвредить угрозы вы можете узнать здесь: 
+            <a href="https://youtu.be/Apn1q84mq4w?si=f1cE6k8pfa6VMtIQ">https://youtu.be/Apn1q84mq4w?si=f1cE6k8pfa6VMtIQ</a>
+            </p>
+            <img src="img/dr_web_12.png" class="img_dr_web">
+
+            <p id="li4" class="dr_web-text">Кликнув на ссылку в столбце «Угроза» вы попадете на официальный сайт Dr.Web, где сможете найти информацию о вирусе.
+            </p>
+            <img src="img/dr_web_13.png" class="img_dr_web"> 
+        </div>
+        <p class="official">Перейти на официальную страницу производителя: <a class="official-link" href="https://www.drweb.ru" target="_blank">Dr.Web</a></p>
+        <h3 id="li5" class="title">Вы можете оставить свой отзыв <a href="forms.html" class="comments" target="_blank">здесь</a></h3>
+    </main> 
+    </div>
+    <footer id="footer"></footer> 
+        <script src="js/footer.js"></script> 
+    <div class="go-top"><img src="img/go_top.png"></div>
+    <script src="js/button.js"></script>
+</body>
+</html>
